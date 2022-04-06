@@ -1,0 +1,45 @@
+.App {
+  max-width: 380px;
+  max-height: 800px;
+  margin: 15% auto;
+  font-size: 18px;
+  text-align: center;
+}
+.Button, .XBtn, select, input[type=color] {
+  width: 140px;
+  min-height: 40px;
+  text-align: center;
+  font-size: inherit;
+  padding-top: 1px;
+  margin-top: 2%;
+}
+.Button {
+  border: solid 1.5px royalblue ;
+  background-color: deepskyblue;
+  color:white;
+  text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.XBtn {
+  width: fit-content;
+  border: solid 1.5px rgb(225, 65, 65) ;
+  background-color: rgb(255, 132, 0);
+}
+.addButton{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 15px;
+  background-color: deepskyblue;
+}
+input[type=text] {
+  width: 140px;
+  min-height: 30px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+form {
+  margin-left: -10%;
+}
